@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: sans-serif;
   }
   html{
     width: 100%;
@@ -16,9 +17,9 @@
   }
     /*-----------------Pc- Img-------------------------------------------*/
    .navbar img{
-    width: 6%;
+    width: 8em;
     position:absolute;
-    margin-top: 1.6em;
+    margin-top: 1.0em;
     margin-left: 5%;
    }
 
@@ -35,7 +36,7 @@
   .navbar{
     width: 100%;
     background-color: rgb(255, 255, 255);
-    height: 8.5em;
+    height: 10.0em;
   }
   .botao{
   border-radius: 1px;
@@ -55,8 +56,8 @@
   .navbar ul{
     margin-left: 15.5%;
     text-align: right;
-    margin-right : 5%;
-    padding-top: 3%;
+    margin-right : 10em;
+    padding-top: 3.0em;
   }
   .navbar a {
     color: #4E5DAE;
@@ -119,7 +120,7 @@
       
    .main {
     width: 100%;
-    height: 20%;
+    height: 10em;
     background-color: #ffffff;
     display: block; 
     position: absolute; 
@@ -177,7 +178,7 @@
       transition: 0.5s;
       width: 100%;
       height: 100%;
-      background-color: rgba(165, 165, 165, 0.507);
+      background-color: rgb(0, 0, 0);
       position: absolute;
       left: -100%;
   }
@@ -219,7 +220,7 @@
   .logo img{
     width: 6.2em;
     float: right;
-    margin: 1.3em 2em;
+    margin: 1.3em 3.8em;
    }
 
 
@@ -230,31 +231,196 @@
 
 .imagem-home img{
  width: 100%;
- height: 50em;
+ height: 35em;
 }
 
 .texto-home{
   display: inline-block;
-  width: 41em;
-  margin-top: 8em;
+  width: 50em;
+  margin-top: 10em;
   text-align: left;
   position: absolute;
   
 }
 .texto-home h1{
-  margin-left: 2.2em;
+  margin-left: 4.2em;
   font-size: 3em;
   color: #1b1b1bd3;
   font-family: sans-serif;
 }
 
 .botao-home{
-  margin-left: 7em;
-  margin-top: 1em;
+  margin-left: 13em;
+  margin-top: 1.6em;
   font-size: 1em;
   padding: 0.8em 1.8em;
   background-color: #303D82;
   border: solid 1px white;
   color: white;
 }
+.botao-home:active{
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+@media (max-width:1100px){
+  .imagem-home img{
+    width: 100%;
+    height: 25em;
+   }
+   
+   .texto-home{
+     display: inline-block;
+     width: 25em;
+     margin-top: 4em;
+     text-align: left;
+     position: absolute;
+     
+   }
+   .texto-home h1{
+     margin-left: 2em;
+     font-size: 1.8em;
+     color: #1b1b1bd3;
+     font-family: sans-serif;
+   }
+   
+   .botao-home{
+     margin-left: 3.5em;
+     margin-top: 1.6em;
+     font-size: 1em;
+     padding: 0.8em 1.8em;
+     background-color: #303D82;
+     border: solid 1px white;
+     color: white;
+   }
+   .botao-home:active{
+     box-shadow: 2px 2px 2px 2px black;
+   }
+   .navbar ul{
+    margin-left: 15.5%;
+    text-align: right;
+    margin-right : 10em;
+    padding-top: 1.5em;
+  }
+}
+
+ @media (max-width:833px){
+  .imagem-home img{
+    width: 100%;
+    height: 25rem;
+   }
+   
+   .texto-home{
+     display: inline-block;
+     width: 22em;
+     margin-top: 13em;
+     text-align: left;
+     position: absolute;
+     
+   }
+   .texto-home h1{
+     margin-left: 4em;
+     font-size: 1.5em;
+     color: #1b1b1bd3;
+     font-family: sans-serif;
+   }
+   
+   .botao-home{
+     margin-left: 7.8em;
+     margin-top: 0.5em;
+     font-size: 0.8em;
+     padding: 0.8em 1.8em;
+     background-color: #303D82;
+     border: solid 1px white;
+     color: white;
+   }
+   .botao-home:active{
+     box-shadow: 2px 2px 2px 2px black;
+   }
+   
+}
+   @media (max-width:380px){
+    .imagem-home img{
+      width: 100%;
+      height: 25rem;
+     }
+     
+     .texto-home{
+       display: inline-block;
+       width: 15em;
+       margin-top: 13em;
+       text-align: left;
+       position: absolute;
+       
+     }
+     .texto-home h1{
+       margin-left: 2em;
+       font-size: 1.5em;
+       color: #1b1b1bd3;
+       font-family: sans-serif;
+     }
+     
+     .botao-home{
+       margin-left: 4em;
+       margin-top: 1.0em;
+       font-size: 0.8em;
+       padding: 0.8em 1.8em;
+       background-color: #303D82;
+       border: solid 1px white;
+       color: white;
+     }
+     .botao-home:active{
+       box-shadow: 2px 2px 2px 2px black;
+     } 
+    }
+/*-------------------------SERVIÇOS----------------------------------*/
+  section{
+   background-color: #ffffff;
+   width: 100%;
+  }
+    .services{
+     background-color: #ffffff;
+     width: 100%;
+     height: 35em;
+    }
+  .services h1{
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 1em;
+    font-family: sans-serif;
+  }
+  .texto h2{
+    text-align: center;
+    padding-top: 1.5em;
+    padding-right: 25em;
+    font-size: 2.3em;
+  }
+  .texto h2 p{
+    display:inline-block ;
+    text-align: left;
+    position: absolute;
+  }
+.paragrafo p{
+  width: 30em;
+  margin-left: 9.2em ;
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+ .botao-services{ 
+ position: absolute;
+ font-size: 30px;
+ margin-left: 55%;
+ margin-top: 0.5em;
+}
+.botao-services button{
+  width: 23em;
+  text-align: center;
+  height: 2.5em;
+  margin-top: 1em;
+  font-size: 0.8em;
+  background-color: #303D82;
+  color: #ffffff;
+} 
+
+
 
